@@ -2,7 +2,7 @@
 
 ## Overview
 
-[View live site](https://restcountries.com)
+[View live site](https://main--frontendmentorrestcountriesapi.netlify.app/)
 
 ### The challenge
 
