@@ -10,7 +10,7 @@ const Countries = () => {
 
     return (
         <div className='countries'>
-            {data.getCountries.map(country => (
+            {data.getCountries.map((country ) => (
                 <Link to={`/${country.name}`}  key={country.name}>
                     <div>
                         <div>
