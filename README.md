@@ -2,6 +2,8 @@
 
 ## Overview
 
+[View live site](https://restcountries.com)
+
 ### The challenge
 
 The challenge is to integrate with the [REST Countries API](https://restcountries.com) to pull country data and display it like in the designs.
