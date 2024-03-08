@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "compile:sass": "node-sass --watch src/sass/main.scss -o src/css",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -24,7 +25,9 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "node-sass": "^9.0.0",
     "react-router-dom": "^6.22.2",
+    "sass": "^1.71.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   }

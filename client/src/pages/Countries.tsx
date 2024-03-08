@@ -11,12 +11,12 @@ const Countries = () => {
     return (
         <div className='countries'>
             {data.getCountries.map((country ) => (
-                <Link to={`/${country.name}`}  key={country.name}>
-                    <div>
+                <Link to={`/${country.name}`}  key={country.name} className='countries__link-component'>
+                    <div className='countries__card'>
                         <div>
-                            <img src={country.flags.png} alt={country.flags.alt} />
+                            <img className='countries__flags' src={country.flags.png} alt={country.flags.alt} />
                         </div>
-                        <div>
+                        <div className='countries__details'>
                             <h2>{country.name}</h2>
                             <p><span>Population:</span> {country.population}</p>
                             <p><span>Capital:</span> {country.capital}</p>
