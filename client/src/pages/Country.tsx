@@ -1,9 +1,12 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
+import { useNavigate } from 'react-router-dom'
 
 import { useCountries } from '../queries/countryData'
 const Country = () => {
 
-  const {error, loading, data } = useCountries()
+  const {error, loading, data } = useCountries();
+  
+  const navigate = useNavigate();
 
   const path = window.location.pathname
   const pathUrl = path.split('/');
@@ -19,7 +22,7 @@ const Country = () => {
 
   return (
 	<>
-	<button className='back-btn'>Back</button>
+	<button className='back__btn' onClick={() => navigate(-1)}><span className='back__btn--icon'>&#8592;</span> Back</button>
     <div className="country">
         <div className='country__card' key={country[0].name}>
         	<div className="country__flag">

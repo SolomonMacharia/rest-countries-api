@@ -34,8 +34,14 @@
     text-decoration: none;
     color: inherit; }
 
-.back-btn {
-  margin: 3rem 4rem; }
+.back__btn {
+  margin: 3rem 4rem;
+  font-weight: lighter; }
+  .back__btn:hover {
+    cursor: pointer; }
+  .back__btn--icon {
+    font-weight: bold;
+    font-size: 1.2rem; }
 
 .country {
   width: auto;
