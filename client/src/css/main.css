@@ -1,3 +1,18 @@
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 2rem; }
+  .header__title {
+    font-size: 1.5rem;
+    font-weight: 700; }
+  .header__switch-mode {
+    font-size: 1.2rem; }
+  .header__switch-mode:hover {
+    cursor: pointer; }
+  .header__border-line {
+    border-bottom: 2px solid #f3efef; }
+
 .countries {
   display: flex;
   justify-content: space-around;

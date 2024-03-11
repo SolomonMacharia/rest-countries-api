@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 2rem;
+    // background-color: red;
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    &__switch-mode {
+        font-size: 1.2rem;
+    }
+
+    &__switch-mode:hover {
+        cursor: pointer;
+    }
+
+    &__border-line {
+        border-bottom: 2px solid #f3efef;
+    }
+}
