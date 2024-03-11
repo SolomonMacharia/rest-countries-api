@@ -1,5 +1,15 @@
-.back-btn {
+.back__btn {
     margin: 3rem 4rem;
+    font-weight: lighter;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &--icon {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
 }
 .country {
     width: auto;
